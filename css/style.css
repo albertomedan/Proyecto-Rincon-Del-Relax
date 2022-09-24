@@ -15,6 +15,7 @@ html{
 body{
 	background-color: #fff8f0;
 	background-attachment: fixed;
+	width: 100%;
 }
 
 h1{
@@ -137,6 +138,7 @@ nav ul{
 	width: 85%;
 	margin: auto;
 	padding: 100px;
+	text-align: center;
 	
 
 }
