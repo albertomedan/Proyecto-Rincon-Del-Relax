@@ -12,6 +12,10 @@ html{
 	font-size: 62.5%;
 }
 
+main {
+	width: 100%;
+}
+
 body{
 	background-color: #fff8f0;
 	background-attachment: fixed;
@@ -38,49 +42,16 @@ p{
 	font-size: 1.6rem;
 }
 
-nav{
-	background-color: #e5dbd1;
-	/*position*/
-	position: sticky;
-	top: 0;
-	/*padding*/
-	padding: 10px 30px;
-	width: 100%;
-	margin: auto;
-	text-align: center;
 
-	}
 
-nav ul{
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 50px;
-	
-	}
 
-	nav ul li{
-		list-style: none;
-		margin-right: 20px;
-		display: inherit;
-	}
-
-		nav ul li a{
-			font-size: 1.8rem;
-			text-decoration: none;
-			color: #5B5959;
-		}
-
-		/*hover*/
-		nav ul li a:hover{
-			color: black;
-			font-weight: 600;
-		}
-
-		footer {
+footer {
 			background-color: #42230d;
 			color: #e5dbd1;
 			
-		}
+}
+	
+
 /* clases camelCase  */
 
 .textDestacado{
@@ -147,3 +118,24 @@ nav ul{
 	width: 30px;
 	margin: 10px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+	.col-2 {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.container-footer {
+		width: 100%;
+		padding: 50px 0 50px 0;
+	}
+
+	.container {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+}
+
