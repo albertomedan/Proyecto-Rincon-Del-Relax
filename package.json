@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-rincon-del-relax-main",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de desarrollo web de CoderHouse Este es mi proyecto de una pagina de masajes estetica y etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/main.css --watch" 
+  
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
