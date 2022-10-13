@@ -37,11 +37,12 @@
     font-size: 1.8rem;
    color: #5B5959;
    text-align: right;
-
-}
-.menu ul a:hover {
+   
+   &:hover{
     font-weight: 600;
 }
+}
+
 #menuToggle {
     display: none;
 }
