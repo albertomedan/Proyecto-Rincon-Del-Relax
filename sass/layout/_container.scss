@@ -1,6 +1,5 @@
 .container {
-	width: 85%;	
-	margin: auto;
+	@include ContainerBase;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	box-sizing:border-box;
@@ -22,8 +21,7 @@
 }
 
 .container-footer {
-	width: 85%;
-	margin: auto;
+	@include ContainerBase;
 	padding: 100px;
 	text-align: center;
 	
